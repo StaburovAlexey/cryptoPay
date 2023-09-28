@@ -1,0 +1,29 @@
+.hero-info__header {
+  font-family: "Inter", sans-serif;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%;
+  /* 88px */
+  letter-spacing: -2.4px;
+  color: rgba(13, 13, 18, 1);
+  align-self: stretch;
+  margin: 0;
+}
+
+.hero-info__header span {
+  color: rgba(65, 164, 223, 1);
+}
+
+@media screen and (max-width: 1024px) {
+  .hero-info__header {
+    font-size: 46px;
+    letter-spacing: -1.38px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .hero-info__header {
+    text-align: center;
+  }
+}

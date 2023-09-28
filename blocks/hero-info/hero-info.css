@@ -1,0 +1,20 @@
+.hero-info {
+  margin: 100px 0 0;
+  max-width: 692px;
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+
+@media screen and (max-width: 1200px) {
+  .hero-info {
+    padding: 20px;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-info {
+    gap: 24px;
+  }
+}

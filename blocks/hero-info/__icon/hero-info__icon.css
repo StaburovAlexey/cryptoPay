@@ -1,0 +1,68 @@
+.hero-info__icon {
+  width: 96px;
+  height: 96px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 0;
+
+}
+
+.hero-info__icon:nth-of-type(1) {
+  background-image: url(../../../image/hero-info__icons/Ellipse\ 2.svg);
+  left: 0;
+}
+
+.hero-info__icon:nth-of-type(2) {
+  background-image: url(../../../image/hero-info__icons/Ellipse\ 1.svg);
+  left: calc(96px - 32px);
+}
+
+.hero-info__icon:nth-of-type(3) {
+  background-image: url(../../../image/hero-info__icons/Ellipse\ 4.svg);
+  left: calc((96px*2) - 32px*2);
+}
+
+.hero-info__icon:nth-of-type(4) {
+  background-image: url(../../../image/hero-info__icons/Ellipse\ 5.svg);
+  left: calc((96px*3) - 32px*3);
+}
+
+.hero-info__icon:nth-of-type(5) {
+  background-image: url(../../../image/hero-info__icons/Ellipse\ 3.svg);
+  left: calc((96px*4) - 32px*4);
+}
+
+@media screen and (max-width: 768px) {
+  .hero-info__icon {
+    width: 63px;
+    height: 63px;
+  }
+
+  .hero-info__icon:nth-of-type(1) {
+    background-image: url(../../../image/hero-info__icons/Ellipse\ 2.svg);
+    left: 0;
+  }
+
+  .hero-info__icon:nth-of-type(2) {
+    background-image: url(../../../image/hero-info__icons/Ellipse\ 1.svg);
+    left: calc(63px - 16px);
+  }
+
+  .hero-info__icon:nth-of-type(3) {
+    background-image: url(../../../image/hero-info__icons/Ellipse\ 4.svg);
+    left: calc((63px*2) - 16px*2);
+  }
+
+  .hero-info__icon:nth-of-type(4) {
+    background-image: url(../../../image/hero-info__icons/Ellipse\ 5.svg);
+    left: calc((63px*3) - 16px*3);
+  }
+
+  .hero-info__icon:nth-of-type(5) {
+    background-image: url(../../../image/hero-info__icons/Ellipse\ 3.svg);
+    left: calc((63px*4) - 16px*4);
+  }
+
+}

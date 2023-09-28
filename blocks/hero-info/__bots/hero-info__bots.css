@@ -1,0 +1,8 @@
+.hero-info__bots {}
+
+@media screen and (max-width: 768px) {
+  .hero-info__bots {
+    width: 251px;
+    align-self: center;
+  }
+}

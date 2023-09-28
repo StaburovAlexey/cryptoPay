@@ -1,1 +1,9 @@
-.header__link {}
+.header__nav-link {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  text-decoration: none;
+  color: #0D0D12;
+}

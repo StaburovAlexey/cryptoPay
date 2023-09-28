@@ -1,0 +1,17 @@
+.hero__phone {
+  background-image: url(../../../image/img_phone.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 488px;
+  height: 700px;
+  flex-shrink: 0;
+
+}
+
+@media screen and (max-width: 1024px) {
+  .hero__phone {
+    width: 375px;
+    height: 640px;
+  }
+}

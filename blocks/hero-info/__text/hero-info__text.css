@@ -1,0 +1,19 @@
+.hero-info__text {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  /* 24px */
+  color: rgba(13, 13, 18, 1);
+  align-self: stretch;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-info__text {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 24px;
+  }
+}

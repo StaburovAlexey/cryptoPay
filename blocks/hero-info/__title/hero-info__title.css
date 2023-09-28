@@ -1,0 +1,15 @@
+.hero-info__title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  gap: 32px;
+}
+
+
+@media screen and (max-width: 768px){
+  .hero-info__title {
+    align-items: center;
+    gap: 0;
+  }
+}
