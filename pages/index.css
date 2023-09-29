@@ -17,3 +17,16 @@
 @import url(../blocks/hero-info/__icons/hero-info__icons.css);
 @import url(../blocks/hero-info/__text/hero-info__text.css);
 @import url(../blocks/hero-info/__text/_under-icons/hero-info__text_under-icons.css);
+@import url(../blocks/usecases/usecases.css);
+@import url(../blocks/usecases/__pagination/usecases__slider-pagination.css);
+@import url(../blocks/usecases/__slide/usecases__slider-slide.css);
+@import url(../blocks/usecases/__slider/usecases__slider.css);
+@import url(../blocks/usecases/__wraper/usecases__slider-wrapper.css);
+@import url(../blocks/slide/slide.css);
+@import url(../blocks/slide/__btn/slide__btn.css);
+@import url(../blocks/slide/__header/slide__header.css);
+@import url(../blocks/slide/__img/slide__img.css);
+@import url(../blocks/slide/__info/slide__info.css);
+@import url(../blocks/slide/__text/slide__text.css);
+@import url(../blocks/slide/__fraction-up/slide__fraction-up.css);
+@import url(../blocks/slide/__fraction-down/slide__fraction-down.css);

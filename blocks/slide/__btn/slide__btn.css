@@ -1,0 +1,19 @@
+.slide__btn {
+  display: inline-flex;
+  padding: 18px 42px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 900px;
+  background-color: rgba(65, 164, 223, 1);
+  border: none;
+  box-sizing: border-box;
+  font-family: "Inter",sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  /* 21.6px */
+  color: rgba(255, 255, 255, 1);
+}

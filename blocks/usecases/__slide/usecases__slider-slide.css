@@ -1,0 +1,23 @@
+.usecases__slider-slide {
+  background-color: rgba(35, 35, 40, 1);
+  display: flex;
+  align-items: flex-start;
+  gap: 122px;
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition-property: transform;
+}
+
+@media screen and (max-width: 1280px) {
+  .usecases__slider-slide {
+    gap: 32px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .usecases__slider-slide {
+    flex-direction: column;
+  }
+}

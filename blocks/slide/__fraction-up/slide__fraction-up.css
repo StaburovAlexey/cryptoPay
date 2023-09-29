@@ -1,0 +1,19 @@
+.slide__fraction-up {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  /* 16.8px */
+  text-transform: uppercase;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  margin: 0;
+  position: absolute;
+  top: 236px;
+  right: 12.5%;
+  width: 19px;
+  height: 17px;
+  z-index: 25;
+
+}

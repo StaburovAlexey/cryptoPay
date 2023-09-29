@@ -1,0 +1,23 @@
+.slide__img {
+  width: 488px;
+  height: 488px;
+  display: block;
+  margin: 196px 0 196px 200px;
+}
+
+
+@media screen and (max-width: 1280px) {
+  .slide__img {
+    /* width: 335px;
+    height: 335px; */
+    margin: 196px 0 196px 20px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .slide__img {
+    width: 335px;
+    height: 335px;
+    margin: 245.5px 0 196px 20px;
+  }
+}

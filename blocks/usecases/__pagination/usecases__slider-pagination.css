@@ -1,0 +1,37 @@
+.usecases__slider-pagination {
+  position: absolute;
+  top: 265px;
+  right: 12.5%;
+  width: 19px;
+  z-index: 25;
+  background-color: aliceblue;
+  display: inline-flex;
+  height: 350px;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+  background-color: transparent;
+}
+
+.usecases__slider-pagination p {
+  color: aliceblue;
+}
+
+.usecases__slider-pagination-bullet {
+  width: 4px;
+  flex: 1 0 0;
+  border-radius: 90px;
+  background-color: rgba(255, 255, 255, 0.24);
+  cursor: pointer;
+}
+
+.usecases__slider-pagination-bullet_active {
+  background-color: rgba(65, 164, 223, 1);
+}
+
+@media screen and (max-width: 1000px) {
+  .usecases__slider-pagination {
+    height: 277px;
+  }
+}

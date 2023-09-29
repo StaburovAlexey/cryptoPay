@@ -2,8 +2,8 @@
   margin-top: calc(16px + 96px);
 }
 
-@media screen and (max-width: 768px){
-  .hero-info__text_under-icons{
-    margin-top:calc(12px+63px);
+@media screen and (max-width: 768px) {
+  .hero-info__text_under-icons {
+    margin-top: calc(12px + 63px);
   }
 }
