@@ -17,8 +17,9 @@
   z-index: 25;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
   .slide__fraction-down {
-    top: 554px;
+    top: 669px;
+    right: calc(50% - 160.5px);;
   }
 }

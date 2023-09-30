@@ -20,3 +20,13 @@
     letter-spacing: -0.96px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .slide__header {
+    text-align: center;
+  }
+
+  .slide__header br {
+    display: none;
+  }
+}

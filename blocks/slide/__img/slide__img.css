@@ -1,23 +1,20 @@
 .slide__img {
-  width: 488px;
-  height: 488px;
+  max-width: 488px;
+  aspect-ratio: 1/1;
   display: block;
-  margin: 196px 0 196px 200px;
+  margin: auto 0;
 }
 
 
 @media screen and (max-width: 1280px) {
   .slide__img {
-    /* width: 335px;
-    height: 335px; */
-    margin: 196px 0 196px 20px;
+    width: 335px;
+
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
   .slide__img {
-    width: 335px;
-    height: 335px;
-    margin: 245.5px 0 196px 20px;
+    margin: 0;
   }
 }

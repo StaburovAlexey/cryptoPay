@@ -14,10 +14,6 @@
   background-color: transparent;
 }
 
-.usecases__slider-pagination p {
-  color: aliceblue;
-}
-
 .usecases__slider-pagination-bullet {
   width: 4px;
   flex: 1 0 0;
@@ -30,8 +26,20 @@
   background-color: rgba(65, 164, 223, 1);
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
   .usecases__slider-pagination {
-    height: 277px;
+    flex-direction: row;
+    width: 277px;
+    height: 17px;
+    top: 669px;
+    right: 50%;
+    translate: 50%;
+
+  }
+
+  .usecases__slider-pagination-bullet {
+    width: auto;
+    height: 4px;
+    position: relative;
   }
 }

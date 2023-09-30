@@ -1,15 +1,22 @@
 .slide__info {
-  margin: 257px 302px 0 0;
+  margin: auto 0;
   display: flex;
   flex-direction: column;
   gap: 32px;
   align-items: flex-start;
-  width: 488px;
+  max-width: 488px;
 }
 
-@media screen and (max-width: 1280px){
+@media screen and (max-width: 1280px) {
   .slide__info {
-    margin: 257px 0 0 0;
     width: 335px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .slide__info {
+    margin: 0;
+    gap: 0;
+    align-items: center;
   }
 }

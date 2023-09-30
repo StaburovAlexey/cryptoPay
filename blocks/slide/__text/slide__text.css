@@ -14,3 +14,13 @@
     font-size: 18px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .slide__text {
+    text-align: center;
+    margin: 24px 0 32px;
+    height: 66px;
+  }
+
+
+}

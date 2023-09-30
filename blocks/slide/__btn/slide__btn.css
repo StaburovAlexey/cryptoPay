@@ -9,11 +9,30 @@
   background-color: rgba(65, 164, 223, 1);
   border: none;
   box-sizing: border-box;
-  font-family: "Inter",sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
   line-height: 120%;
   /* 21.6px */
   color: rgba(255, 255, 255, 1);
+}
+
+.slide__btn:hover {
+  background-color: rgba(41, 126, 226, 1);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+  .slide__btn {
+    padding: 12px 32px;
+    margin: 0 0 32px 0;
+
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .slide__btn {
+    width: 100%;
+  }
 }
