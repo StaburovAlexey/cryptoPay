@@ -1,3 +1,39 @@
 .additional__btn {
-  
+  border-radius: 7.831px;
+  background: rgba(54, 136, 194, 0.82);
+  display: flex;
+  padding: 15.024px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 9.39px;
+  color: #FFF;
+  font-family: "SF Pro", sans-serif;
+  font-size: 19.015px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 17.896px;
+  /* 94.118% */
+}
+
+.additional__btn:nth-of-type(5) {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.additional__btn:nth-of-type(6) {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  display: flex;
+  padding: 15.024px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 9.39px;
+  align-self: stretch;
+
+}
+
+.additional__btn:nth-of-type(6) img {
+  width: 3.756px;
+  height: 7.512px;
+  display: block;
 }

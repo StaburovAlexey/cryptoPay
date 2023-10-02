@@ -1,3 +1,16 @@
-.commissions__text{
-  
+.commissions__text {
+  /* desktop/Base-text */
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  /* 24px */
+  margin: 0;
+  color: rgba(17, 17, 17, 0.8);
+}
+
+.commissions__text a {
+  text-decoration: none;
+  color: rgba(65, 164, 223, 1);
 }

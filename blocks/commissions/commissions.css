@@ -1,2 +1,13 @@
-.commissions{}
+.commissions {
+  display: flex;
+  width: 488px;
+  height: 366px;
+  padding: 42px 56px;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items:center;
+  border-radius: 40px;
+  background-color: rgba(247, 249, 251, 1);
+  box-sizing: border-box;
 
+}

@@ -1,3 +1,8 @@
-.commissions__animations{
-  
+.commissions__animations {
+  width: 376px;
+  height: 152px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }

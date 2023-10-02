@@ -1,0 +1,23 @@
+.commissions__btn {
+  display: inline-flex;
+  padding: 18px 39px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border-radius: 17px;
+  background: linear-gradient(240deg, rgba(41, 126, 226, 0.12) 3.57%, rgba(24, 97, 182, 0.12) 86.24%);
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  /* 26.4px */
+  box-sizing: border-box;
+}
+
+.commissions__btn img {
+  width: 21px;
+  height: 21px;
+
+}

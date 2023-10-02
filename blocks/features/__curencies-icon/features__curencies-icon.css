@@ -1,3 +1,7 @@
-.features__curencies-icon{
-  
+.features__curencies-icon {
+  width: 96px;
+  aspect-ratio: 1/1;
+  display: block;
+  object-position: center;
+  object-fit: contain;
 }

@@ -1,0 +1,11 @@
+.features__curencies-icon-text {
+  font-family: "Inter",sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  /* 16.8px */
+  text-transform: uppercase;
+  color: rgba(17, 17, 17, 0.4);
+  margin: 0;
+}

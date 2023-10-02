@@ -1,3 +1,14 @@
-.features__curencies-text{
-  
+.features__curencies-text {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  /* 24px */
+  margin: 20px 0 0 0;
+}
+
+.features__curencies-text a {
+  color: rgba(65, 164, 223, 1);
+  text-decoration: none;
 }

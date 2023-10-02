@@ -1,3 +1,7 @@
-.additional__btns{
-  
+.additional__btns {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(114.242px, 1fr));
+  grid-template-rows: repeat(4, minmax(26.1px, 48.05px));
+  gap: 4.47px 4.7px;
 }

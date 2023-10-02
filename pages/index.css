@@ -31,3 +31,50 @@
 @import url(../blocks/slide/__fraction-up/slide__fraction-up.css);
 @import url(../blocks/slide/__fraction-down/slide__fraction-down.css);
 @import url(../blocks/slide/__text/_third-slide/slide__text_third-slide.css);
+@import url(../blocks/features/features.css);
+@import url(../blocks/features/__curencies-header/features__curencies-header.css);
+@import url(../blocks/features/__curencies-icon-conteiner/features__curencies-icon-conteiner.css);
+@import url(../blocks/features/__curencies-icon/features__curencies-icon.css);
+@import url(../blocks/features/__curencies-icons/features__curencies-icons.css);
+@import url(../blocks/features/__curencies-icon-text/features__curencies-icon-text.css);
+@import url(../blocks/features/__curencies-info/features__curencies-info.css);
+@import url(../blocks/features/__curencies-text/features__curencies-text.css);
+@import url(../blocks/features/__curencies/features__curencies.css);
+@import url(../blocks/commissions/commissions.css);
+@import url(../blocks/commissions/__animations/commissions__animations.css);
+@import url(../blocks/commissions/__cursor/commissions__cursor.css);
+@import url(../blocks/commissions/__header/commissions__header.css);
+@import url(../blocks/commissions/__btn/commissions__btn.css);
+
+
+
+@import url(../blocks/commissions/__text/commissions__text.css);
+@import url(../blocks/additional/additional.css);
+@import url(../blocks/additional/__bg/additional__bg.css);
+@import url(../blocks/additional/__btn/additional__btn.css);
+@import url(../blocks/additional/__btns/additional__btns.css);
+@import url(../blocks/additional/__header/additional__header.css);
+@import url(../blocks/additional/__message/additional__message.css);
+@import url(../blocks/additional/__text/additional__text.css);
+@import url(../blocks/exchange/exchange.css);
+@import url(../blocks/exchange/__arrows/exchange__arrows.css);
+@import url(../blocks/exchange/__header/exchange__header.css);
+@import url(../blocks/exchange/__icon-dollar/exchange__icon-dollar.css);
+@import url(../blocks/exchange/__icon/exchange__icon.css);
+@import url(../blocks/exchange/__icons/exchange__icons.css);
+@import url(../blocks/exchange/__text/exchange__text.css);
+@import url(../blocks/varification/varification.css);
+@import url(../blocks/varification/__animation/varification__animation.css);
+@import url(../blocks/varification/__header/varification__header.css);
+@import url(../blocks/varification/__text/varification__text.css);
+@import url(../blocks/anonymous/anonymous.css);
+@import url(../blocks/anonymous/__animation-block/anonymous__animation-block.css);
+@import url(../blocks/anonymous/__header/anonymous__header.css);
+@import url(../blocks/anonymous/__text/anonymous__text.css);
+
+
+
+
+
+
+

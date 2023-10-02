@@ -1,3 +1,16 @@
-.additional__text{
-  
+.additional__text {
+  font-family: "Inter",sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  /* 24px */
+  align-self: stretch;
+  color: rgba(17, 17, 17, 0.8);
+  margin: 0;
+}
+
+.additional__text a {
+  color: rgba(65, 164, 223, 1);
+  text-decoration: none;
 }
