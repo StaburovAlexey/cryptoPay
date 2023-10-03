@@ -1,3 +1,13 @@
-.exchange{
-  
+.exchange {
+  display: flex;
+  width: 488px;
+  padding: 42px 56px;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: flex-start;
+  border-radius: 32px;
+  background-color: #F7F9FB;
+  box-sizing: border-box;
 }
+
+

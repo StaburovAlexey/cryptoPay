@@ -1,3 +1,9 @@
 .varification__animation{
-  
+  width: 100%;
+  height: 358px;
+  background-image: url(../../../image/varification/Body.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
 }

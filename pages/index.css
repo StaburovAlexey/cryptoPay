@@ -45,9 +45,6 @@
 @import url(../blocks/commissions/__cursor/commissions__cursor.css);
 @import url(../blocks/commissions/__header/commissions__header.css);
 @import url(../blocks/commissions/__btn/commissions__btn.css);
-
-
-
 @import url(../blocks/commissions/__text/commissions__text.css);
 @import url(../blocks/additional/additional.css);
 @import url(../blocks/additional/__bg/additional__bg.css);
@@ -65,6 +62,7 @@
 @import url(../blocks/exchange/__text/exchange__text.css);
 @import url(../blocks/varification/varification.css);
 @import url(../blocks/varification/__animation/varification__animation.css);
+@import url(../blocks/varification/__animations-messege/varification__animation-messege.css);
 @import url(../blocks/varification/__header/varification__header.css);
 @import url(../blocks/varification/__text/varification__text.css);
 @import url(../blocks/anonymous/anonymous.css);

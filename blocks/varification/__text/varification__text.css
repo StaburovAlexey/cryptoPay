@@ -1,1 +1,17 @@
-.varification__text{}
+.varification__text {
+  color: rgba(17, 17, 17, 0.80);
+  /* desktop/Base-text */
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  /* 24px */
+  margin: 0;
+  align-self: stretch;
+}
+
+.varification__text a {
+  color: rgba(65, 164, 223, 1);
+  text-decoration: none;
+}
