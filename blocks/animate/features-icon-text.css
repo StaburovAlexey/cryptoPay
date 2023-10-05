@@ -1,0 +1,19 @@
+.features-icon-text {
+  animation-name: smallBigText;
+  animation-duration: 500ms;
+}
+
+@keyframes smallBigText {
+  0% {
+    color: rgba(17, 17, 17, 0.4);
+  }
+
+  50% {
+    color: rgba(17, 17, 17, 0.80);
+
+  }
+
+  100% {
+    color: rgba(17, 17, 17, 0.4);
+  }
+}

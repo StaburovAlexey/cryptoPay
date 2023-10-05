@@ -1,6 +1,6 @@
 .exchange {
   display: flex;
-  width: 488px;
+  /* width: 488px; */
   padding: 42px 56px;
   flex-direction: column;
   justify-content:space-between;
@@ -8,6 +8,8 @@
   border-radius: 32px;
   background-color: #F7F9FB;
   box-sizing: border-box;
+  grid-column: 1/6;
+  grid-row: 3/4;
 }
 
 

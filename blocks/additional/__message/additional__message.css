@@ -1,11 +1,12 @@
 .additional__message {
   width: 100%;
-  aspect-ratio: 2/1;
-  /* height: 222px; */
+  /* aspect-ratio: 1/2; */
+  min-height: 222px;
   background-image: url(../../../image/additional/image\ 1.svg);
-  background-position: bottom;
+  background-position: 100% 100%;
   background-repeat: no-repeat;
-  background-size:contain;
+  background-size: contain;
   box-sizing: border-box;
   display: block;
+  border-radius: 16.778px 16.778px 7.83px 7.83px;
 }

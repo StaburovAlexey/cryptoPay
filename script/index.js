@@ -48,3 +48,24 @@ function fractionDrow() {
     fractionUp.textContent = "03";
   }
 }
+
+const iconsContainer = document.querySelector(".features__curencies");
+const featuresIcons = iconsContainer.querySelectorAll(
+  ".features__curencies-icon-conteiner"
+);
+
+document.addEventListener("mouseover", (event) => {
+  const target = event.target;
+  if (target.classList.contains("features__curencies")) {
+    for (let i = 0; i < featuresIcons.length; ++i) {
+      const img = featuresIcons[i].querySelector(".features__curencies-icon");
+      const text = featuresIcons[i].querySelector(
+        ".features__curencies-icon-text"
+      );
+      setTimeout(() => {
+        img.classList.add("features-icon");
+        text.classList.add("features-icon-text");
+      }, i * 400);
+    }
+  }
+});

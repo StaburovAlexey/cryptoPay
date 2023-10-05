@@ -62,15 +62,20 @@
 @import url(../blocks/exchange/__text/exchange__text.css);
 @import url(../blocks/varification/varification.css);
 @import url(../blocks/varification/__animation/varification__animation.css);
-@import url(../blocks/varification/__animations-messege/varification__animation-messege.css);
+@import url(../blocks/varification/__slider/varification__slider.css);
+@import url(../blocks/varification/__slider-wraper/varification__slider-wraper.css);
+@import url(../blocks/varification/__slider-slide/varification__slider-slide.css);
 @import url(../blocks/varification/__header/varification__header.css);
 @import url(../blocks/varification/__text/varification__text.css);
 @import url(../blocks/anonymous/anonymous.css);
 @import url(../blocks/anonymous/__animation-block/anonymous__animation-block.css);
 @import url(../blocks/anonymous/__header/anonymous__header.css);
 @import url(../blocks/anonymous/__text/anonymous__text.css);
-
-
+@import url(../blocks/anonymous/__slider/anonymous__slider.css);
+@import url(../blocks/anonymous/__slider-wraper/anonymous__slider-wraper.css);
+@import url(../blocks/anonymous/__slider-slide/anonymous__slider-slide.css);
+@import url(../blocks/animate/features-icon.css);
+@import url(../blocks/animate/features-icon-text.css);
 
 
 

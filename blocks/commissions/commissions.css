@@ -1,7 +1,7 @@
 .commissions {
   display: flex;
-  width: 488px;
-  height: 366px;
+  /* width: 488px;
+  height: 366px; */
   padding: 42px 56px;
   flex-direction: column;
   justify-content:space-between;
@@ -9,5 +9,6 @@
   border-radius: 40px;
   background-color: rgba(247, 249, 251, 1);
   box-sizing: border-box;
-
+  grid-column: 1/6;
+  grid-row: 2;
 }

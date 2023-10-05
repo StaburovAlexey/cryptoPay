@@ -1,3 +1,18 @@
-.anonymous__text{
+.anonymous__text {
+  /* desktop/Base-text */
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  /* 24px */
+  color: rgba(17, 17, 17, 0.80);
+  margin: 0;
+  align-self: stretch;
+}
+
+.anonymous__text a {
+  color: #41A4DF;
+  text-decoration: none;
   
 }

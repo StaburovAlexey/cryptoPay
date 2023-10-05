@@ -1,3 +1,12 @@
-.anonymous__header{
-  
+.anonymous__header {
+  font-family: "Inter", sans-serif;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 629;
+  line-height: 110%;
+  /* 46.2px */
+  letter-spacing: -1.26px;
+  margin: 0;
+  color: #0D0D12;
+
 }
