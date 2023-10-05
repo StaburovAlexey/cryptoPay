@@ -10,7 +10,8 @@
   color: rgba(255, 255, 255, 1);
   margin: 0;
   position: absolute;
-  top: 236px;
+  /* top: 236px; */
+  top: calc(50% - 200px);
   right: 12.5%;
   width: 19px;
   height: 17px;
@@ -20,8 +21,8 @@
 
 @media screen and (max-width: 768px) {
   .slide__fraction-up {
-    top: 669px;
+    top: 662px;
     right: 0;
-    left: calc(50% - 160.5px);
+    left: calc(50% - 162.5px);
   }
 }

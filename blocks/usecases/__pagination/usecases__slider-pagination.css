@@ -1,6 +1,8 @@
 .usecases__slider-pagination {
   position: absolute;
-  top: 265px;
+  /* top: 265px; */
+  top: 50%;
+  transform:translateY(-50%);
   right: 12.5%;
   width: 19px;
   z-index: 25;

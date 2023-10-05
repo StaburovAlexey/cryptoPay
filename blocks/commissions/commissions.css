@@ -4,11 +4,22 @@
   height: 366px; */
   padding: 42px 56px;
   flex-direction: column;
-  justify-content:space-between;
-  align-items:center;
+  justify-content: space-between;
+  align-items: center;
   border-radius: 40px;
   background-color: rgba(247, 249, 251, 1);
   box-sizing: border-box;
   grid-column: 1/6;
   grid-row: 2;
+}
+
+.commissions:hover .commissions__cursor {
+  animation-name: dragCursor;
+  animation-duration: 2s;
+}
+
+.commissions:hover .commissions__btn {
+  animation-name: btnScale;
+  animation-duration: 1.2s;
+  animation-delay: .8s;
 }

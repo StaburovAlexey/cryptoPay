@@ -1,0 +1,15 @@
+@keyframes btnScale {
+
+  30% {
+    transform: scale(1.08);
+    background: linear-gradient(240deg, rgba(41, 126, 226, 0.18) 3.57%, rgba(24, 97, 182, 0.18) 86.24%);
+
+  }
+
+  70% {
+    transform: scale(1);
+    background: linear-gradient(240deg, rgba(41, 126, 226, 0.12) 3.57%, rgba(24, 97, 182, 0.12) 86.24%);
+  }
+}
+
+

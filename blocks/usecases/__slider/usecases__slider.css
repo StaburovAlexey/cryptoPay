@@ -13,6 +13,12 @@
   display: block
 }
 
+@media screen and (max-width: 1280px) {
+  .usecases__slider {
+    height: 580px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .usecases__slider {
     height: auto;

@@ -1,0 +1,15 @@
+@keyframes dragCursor {
+
+  30%,
+  70% {
+    top: 35%;
+    right: 20%;
+  }
+
+  100% {
+    top: 50%;
+    right: 10%;
+  }
+
+}
+

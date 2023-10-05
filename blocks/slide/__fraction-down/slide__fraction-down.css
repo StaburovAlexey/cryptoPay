@@ -12,14 +12,15 @@
   width: 19px;
   height: 17px;
   position: absolute;
-  top: 627px;
+  /* top: 627px; */
+  bottom: calc(50% - 200px);
   right: 12.5%;
   z-index: 25;
 }
 
 @media screen and (max-width: 768px) {
   .slide__fraction-down {
-    top: 669px;
-    right: calc(50% - 160.5px);;
+    top: 662px;
+    right: calc(50% - 162.5px);;
   }
 }

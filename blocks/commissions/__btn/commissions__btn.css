@@ -15,6 +15,7 @@
   /* 26.4px */
   box-sizing: border-box;
   margin: 0 0 53px 0;
+  position: relative;
 }
 
 .commissions__btn img {
