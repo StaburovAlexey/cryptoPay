@@ -1,0 +1,19 @@
+@keyframes btnActive {
+
+  30%,
+  90% {
+    background-color: rgba(32, 114, 172, 0.82);
+    
+  }
+
+  100% {
+    background-color: rgba(54, 136, 194, 0.82);
+  }
+}
+
+
+.additional-btn-active {
+  animation-name: btnActive;
+  animation-duration: 2s;
+  animation-delay: 2s;
+}

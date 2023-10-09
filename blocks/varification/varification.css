@@ -10,3 +10,102 @@
   grid-column: 1/8;
   grid-row: 4/4;
 }
+
+@keyframes slide-one {
+
+  80%,
+  100% {
+    transform: translateY(-12%) scale(.9);
+    opacity: 0.5;
+  }
+}
+
+@keyframes slide-two {
+  0% {
+    opacity: 0;
+    transform: scale(.6);
+  }
+
+  80%,
+  40% {
+    transform: translateY(-100%) scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(-112%) scale(.9);
+    opacity: 0.5;
+  }
+}
+
+@keyframes slide-three {
+  0% {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+
+  40%,
+  80% {
+    transform: translateY(-200%) scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(-212%) scale(.9);
+    opacity: 0.5;
+  }
+}
+
+@keyframes slide-four {
+  0% {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+
+  40%,
+  70% {
+    transform: translateY(-300%) scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(-300%) scale(1);
+    opacity: 1;
+  }
+}
+
+.varification:hover .varification__slider-slide:nth-of-type(1) {
+  /* transform: translateY(-11%) scale(.9);
+  opacity: 0.5; */
+  animation-name: slide-one;
+  animation-duration: 1s;
+  animation-delay: .6s;
+  animation-fill-mode: forwards
+}
+
+.varification:hover .varification__slider-slide:nth-of-type(2) {
+  /* transform: translateY(-11%) scale(.9);
+  opacity: 0.5; */
+  animation-name: slide-two;
+  animation-duration: 3s;
+  animation-delay: .5s;
+
+}
+
+.varification:hover .varification__slider-slide:nth-of-type(3) {
+  /* transform: translateY(-11%) scale(.9);
+  opacity: 0.5; */
+  animation-name: slide-three;
+  animation-duration: 3s;
+  animation-delay: 2.5s;
+
+}
+
+.varification:hover .varification__slider-slide:nth-of-type(4) {
+  /* transform: translateY(-11%) scale(.9);
+  opacity: 0.5; */
+  animation-name: slide-four;
+  animation-duration: 3s;
+  animation-delay: 4.5s;
+  animation-fill-mode: forwards
+}

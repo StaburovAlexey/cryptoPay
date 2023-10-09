@@ -1,0 +1,32 @@
+@keyframes changeMessege {
+
+  0%,
+  30% {
+    background-image: url(../../image/additional/image\ 1.svg);
+  }
+
+  33%,
+  60% {
+    background-image: url(../../image/additional/image\ 2.svg);
+  }
+
+  66%,
+  93% {
+    background-image: url(../../image/additional/image\ 3.svg);
+  }
+
+  99%,
+  100% {
+    background-image: url(../../image/additional/image\ 1.svg);
+  }
+
+
+}
+
+
+
+
+.additional-messege-change {
+  animation-name: changeMessege;
+  animation-duration: 6s;
+}

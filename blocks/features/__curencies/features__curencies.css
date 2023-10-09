@@ -13,3 +13,92 @@
   grid-row: 1/1;
 }
 
+
+.features__curencies:hover .icon1 {
+  animation-name: smallBig;
+  animation-duration: .5s;
+}
+
+.features__curencies:hover .icon2 {
+  animation-name: smallBig;
+  animation-duration: .5s;
+  animation-delay: .5s;
+}
+
+.features__curencies:hover .icon3 {
+  animation-name: smallBig;
+  animation-duration: .5s;
+  animation-delay: calc(2 * .5s);
+}
+
+.features__curencies:hover .icon4 {
+  animation-name: smallBig;
+  animation-duration: .5s;
+  animation-delay: calc(3 * .5s);
+}
+
+.features__curencies:hover .icon5 {
+  animation-name: smallBig;
+  animation-duration: .5s;
+  animation-delay: calc(4 * .5s);
+}
+
+.features__curencies:hover .icon6 {
+  animation-name: smallBig;
+  animation-duration: .5s;
+  animation-delay: calc(5 * .5s);
+}
+
+.features__curencies:hover .icon7 {
+  animation-name: smallBig;
+  animation-duration: .5s;
+  animation-delay: calc(6 * .5s);
+}
+
+.features__curencies:hover .icon8 {
+  animation-name: smallBig;
+  animation-duration: .5s;
+  animation-delay: calc(7 * .5s);
+}
+
+.features__curencies:hover .text1 {
+  animation-name: smallBigText;
+  animation-duration: .5s;
+}
+
+.features__curencies:hover .text2 {
+  animation-name: smallBigText;
+  animation-duration: .5s;
+  animation-delay: .5s;
+}
+.features__curencies:hover .text3 {
+  animation-name: smallBigText;
+  animation-duration: .5s;
+  animation-delay: calc(2 * .5s);
+}
+.features__curencies:hover .text4 {
+  animation-name: smallBigText;
+  animation-duration: .5s;
+  animation-delay: calc(3 * .5s);
+}
+.features__curencies:hover .text5 {
+  animation-name: smallBigText;
+  animation-duration: .5s;
+  animation-delay: calc(4 * .5s);
+}
+.features__curencies:hover .text6 {
+  animation-name: smallBigText;
+  animation-duration: .5s;
+  animation-delay: calc(5 * .5s);
+}
+.features__curencies:hover .text7 {
+  animation-name: smallBigText;
+  animation-duration: .5s;
+  animation-delay: calc(6 * .5s);
+}
+.features__curencies:hover .text8 {
+  animation-name: smallBigText;
+  animation-duration: .5s;
+  animation-delay: calc(7 * .5s);
+}
+

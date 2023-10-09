@@ -2,11 +2,34 @@
   display: flex;
   padding: 42px 56px 42px;
   flex-direction: column;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: flex-start;
   background-color: #F7F9FB;
   border-radius: 32px;
   grid-column: 6/13;
   grid-row: 2/4;
 
+}
+
+
+.additional:hover .additional__message {
+  animation-name: changeMessege;
+  animation-duration: 6s;
+}
+
+.additional:hover .additional__btn:nth-of-type(1) {
+  animation-name: btnActive;
+  animation-duration: 2s;
+}
+
+.additional:hover .additional__btn:nth-of-type(3) {
+  animation-name: btnActive;
+  animation-duration: 2s;
+  animation-delay: 1.8s;
+}
+
+.additional:hover .additional__btn:nth-of-type(2) {
+  animation-name: btnActive;
+  animation-duration: 2s;
+  animation-delay: 3.6s;
 }

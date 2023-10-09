@@ -1,6 +1,6 @@
 .additional__btn {
   border-radius: 7.831px;
-  background: rgba(54, 136, 194, 0.82);
+  background-color: rgba(54, 136, 194, 0.82);
   display: flex;
   padding: 15.024px 0px;
   justify-content: center;
@@ -12,6 +12,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: 17.896px;
+  position: relative;
   /* 94.118% */
 }
 
@@ -37,3 +38,11 @@
   height: 7.512px;
   display: block;
 }
+
+.additional__btn_active {
+  background-color: rgba(32, 114, 172, 0.82);
+}
+
+
+
+

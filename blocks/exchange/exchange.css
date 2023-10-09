@@ -3,7 +3,7 @@
   /* width: 488px; */
   padding: 42px 56px;
   flex-direction: column;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: flex-start;
   border-radius: 32px;
   background-color: #F7F9FB;
@@ -12,4 +12,94 @@
   grid-row: 3/4;
 }
 
+.exchange:hover .exchange__icon:nth-of-type(3) {
 
+  animation-name: ton-animate;
+  animation-duration: 3s;
+
+}
+
+.exchange:hover .exchange__icon:nth-of-type(2) {
+  animation-name: btc-animate;
+  animation-duration: 3s;
+}
+
+.exchange:hover .exchange__icon:nth-of-type(1) {
+  animation-name: usdt-animate;
+  animation-duration: 3s;
+}
+
+@keyframes ton-animate {
+  0% {
+    z-index: -1;
+  }
+
+  33% {
+    transform: translateX(-72%);
+    z-index: -1;
+    background: linear-gradient(211deg, #04BEFE -2.24%, #4481EB 108.4%);
+  }
+
+  66% {
+    transform: translate(-36%);
+    background: linear-gradient(211deg, #04BEFE -2.24%, #4481EB 108.4%);
+    z-index: 2;
+  }
+
+  99% {
+    transform: translateY(0);
+    z-index: 3;
+  }
+}
+
+@keyframes btc-animate {
+  0% {
+    z-index: 3;
+  }
+
+  33% {
+    transform: translateX(36%);
+    background: no-repeat center/100% url("../../image/currency__icons/BTC.svg");
+    z-index: 3;
+  }
+
+  34% {
+    z-index: -1;
+  }
+
+  66% {
+    transform: translateX(-36%);
+    background: linear-gradient(30deg, #FF930F -50.58%, #FBC411 93.3%);
+    z-index: 1;
+  }
+
+  99% {
+    transform: translateX(0);
+    background: linear-gradient(30deg, #FF930F -50.58%, #FBC411 93.3%);
+    z-index: 2;
+  }
+}
+
+@keyframes usdt-animate {
+  33% {
+    transform: translateX(36%);
+    z-index: 2;
+  }
+
+  66% {
+    transform: translateX(72%);
+    z-index: 3;
+  }
+
+  99% {
+    z-index: -1;
+    background: no-repeat center/100% url("../../image/currency__icons/USDT.svg");
+    transform: translateX(0);
+  }
+
+  100% {
+    background: linear-gradient(25deg, #8DDAD5 -22.31%, #1BA27A 65.28%);
+
+  }
+
+}

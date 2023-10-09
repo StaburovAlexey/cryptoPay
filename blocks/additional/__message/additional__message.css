@@ -10,3 +10,17 @@
   display: block;
   border-radius: 16.778px 16.778px 7.83px 7.83px;
 }
+
+
+.additional__message {
+  width: 100%;
+  min-height: 222px;
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  box-sizing: border-box;
+  display: block;
+  border-radius: 16.778px 16.778px 7.83px 7.83px;
+  position: relative;
+  overflow: hidden;
+}

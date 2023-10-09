@@ -1,7 +1,7 @@
 .exchange__icon-dollar {
   display: inline-flex;
   width: 96px;
-  aspect-ratio: 1/1;
+  height: 96px;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
@@ -17,7 +17,9 @@
   /* 61.6px */
   letter-spacing: -1.68px;
   box-sizing: border-box;
-  position: absolute;
+  margin-left: calc(83px - 96px);
+  flex-shrink: 0;
+  /* position: absolute;
   top: 5px;
-  right: 50px;
+  right: 50px; */
 }
