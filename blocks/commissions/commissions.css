@@ -23,3 +23,15 @@
   animation-duration: 1.2s;
   animation-delay: .8s;
 }
+
+@media screen and (max-width: 1344px) {
+  .commissions {
+    padding: 32px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .commissions {
+    
+  }
+}

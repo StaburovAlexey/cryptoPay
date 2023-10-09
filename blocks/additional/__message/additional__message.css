@@ -1,7 +1,8 @@
 .additional__message {
   width: 100%;
+  min-width: 231px;
   /* aspect-ratio: 1/2; */
-  min-height: 222px;
+  height: auto;
   background-image: url(../../../image/additional/image\ 1.svg);
   background-position: 100% 100%;
   background-repeat: no-repeat;

@@ -1,10 +1,17 @@
 .features__curencies-header {
-  font-family: "Inter",sans-serif;
-  font-size: 42px;
+  font-family: "Inter", sans-serif;
+  /* font-size: 42px; */
+  font-size: calc(28px + 14 * (100vw / 1600));
   font-style: normal;
   font-weight: 629;
   line-height: 110%;
   /* 46.2px */
   letter-spacing: -1.26px;
   margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .features__curencies-header {
+    font-size: calc(28px + (14 + 14 * 0.7) * ((100vw - 375px) / 1600));
+  }
 }

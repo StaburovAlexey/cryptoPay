@@ -2,13 +2,14 @@
   border-radius: 7.831px;
   background-color: rgba(54, 136, 194, 0.82);
   display: flex;
-  padding: 15.024px 0px;
+  /* padding: 15.024px 0px; */
   justify-content: center;
   align-items: center;
   gap: 9.39px;
   color: #FFF;
   font-family: "SF Pro", sans-serif;
-  font-size: 19.015px;
+  /* font-size: 19px; */
+  font-size: calc(10px + 9 * (100vw / 1600));
   font-style: normal;
   font-weight: 500;
   line-height: 17.896px;
@@ -46,3 +47,8 @@
 
 
 
+@media screen and (max-width: 768px) {
+  .additional__btn {
+    font-size: calc(10px + (9 + 9 * 0.7) * ((100vw - 375px) / 1600));
+  }
+}

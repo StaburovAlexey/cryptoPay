@@ -9,4 +9,47 @@
   gap: 20px;
   border-radius: 32px;
   background: #F7F9FB;
+
+}
+
+.anonymous:hover .anonymous__slider-slide:nth-of-type(1) {
+  /* transform: translateY(-11%) scale(.9);
+  opacity: 0.5; */
+  animation-name: anonymous-slide-one;
+  animation-duration: 1s;
+  animation-delay: .6s;
+  animation-fill-mode: forwards
+}
+
+.anonymous:hover .anonymous__slider-slide:nth-of-type(2) {
+  /* transform: translateY(-11%) scale(.9);
+  opacity: 0.5; */
+  animation-name: anonymous-slide-two;
+  animation-duration: 2s;
+  animation-delay: .5s;
+
+}
+
+.anonymous:hover .anonymous__slider-slide:nth-of-type(3) {
+  /* transform: translateY(-11%) scale(.9);
+  opacity: 0.5; */
+  animation-name: anonymous-slide-three;
+  animation-duration: 2s;
+  animation-delay: 1.8s;
+
+}
+
+.anonymous:hover .anonymous__slider-slide:nth-of-type(4) {
+  /* transform: translateY(-11%) scale(.9);
+  opacity: 0.5; */
+  animation-name: anonymous-slide-four;
+  animation-duration: 2s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards
+}
+
+@media screen and (max-width: 1344px) {
+  .anonymous {
+    padding: 32px;
+  }
 }

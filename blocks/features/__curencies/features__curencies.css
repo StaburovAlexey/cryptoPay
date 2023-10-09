@@ -102,3 +102,11 @@
   animation-delay: calc(7 * .5s);
 }
 
+@media screen and (max-width: 1344px){
+  .features__curencies{
+    padding: 32px;
+    gap: 24px;
+    justify-content: center;
+  }
+}
+

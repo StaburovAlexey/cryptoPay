@@ -6,3 +6,24 @@
   grid-template-rows: 345px 366px 366px 510px;
   gap: 20px;
 }
+
+@media screen and (max-width: 1344px) {
+  .features {
+    gap: 16px;
+
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .features {
+    width: 89%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .features {
+    width: 89%;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 376px 320px 320px 482px 345px 384px;
+  }
+}

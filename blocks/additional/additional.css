@@ -33,3 +33,9 @@
   animation-duration: 2s;
   animation-delay: 3.6s;
 }
+
+@media screen and (max-width: 1344px) {
+  .additional {
+    padding: 32px;
+  }
+}

@@ -10,3 +10,9 @@
   box-sizing: border-box;
 
 }
+
+@media screen and (max-width: 1344px) {
+  .additional__bg {
+    padding: 24px 20px;
+  }
+}

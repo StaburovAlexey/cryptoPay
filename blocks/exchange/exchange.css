@@ -103,3 +103,10 @@
   }
 
 }
+
+
+@media screen and (max-width: 1344px) {
+  .exchange {
+    padding: 32px;
+  }
+}

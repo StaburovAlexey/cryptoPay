@@ -1,6 +1,6 @@
 .exchange__arrows {
   width: 43px;
-  height: 25wpx;
+  height: 25px;
   display: block;
   object-fit: contain;
   object-position: center;
@@ -9,4 +9,13 @@
   z-index: 4;
   /* top: 40px;
   left: 200px; */
+}
+
+
+@media screen and (max-width: 1024px) {
+  .exchange__arrows {
+    width: 29px;
+    height: 18px;
+    margin-left: calc(42px - (96px - 82px));
+  }
 }

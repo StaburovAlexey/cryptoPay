@@ -1,6 +1,8 @@
 .commissions__btn {
   display: inline-flex;
-  padding: 18px 39px;
+  /* padding: 18px 39px; */
+  width: 223px;
+  height: 62px;
   justify-content: center;
   align-items: center;
   gap: 5px;
@@ -22,4 +24,10 @@
   width: 21px;
   height: 21px;
 
+}
+
+@media screen and (max-width: 1024px){
+  .commissions__btn{
+    margin: 0 0 0;
+  }
 }

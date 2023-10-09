@@ -7,3 +7,10 @@
   overflow: hidden;
 }
 
+
+@media screen and (max-width: 1344px) {
+  .varification__slider {
+    margin: 22px 0 0 0;
+  padding: 25px 0 25px 0;
+  }
+}
