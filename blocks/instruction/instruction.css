@@ -1,0 +1,26 @@
+.instruction {
+  max-width: 1600px;
+  background-color: #F7F9FB;
+  padding: 120px 12.5%;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 1fr;
+  gap: 40px 20px;
+
+}
+
+@media screen and (max-width: 1024px) {
+  .instruction {
+    padding: 32px 20px;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  .instruction {
+    grid-template-columns: repeat(6, 1fr);
+    gap: 24px 16px;
+  }
+
+}

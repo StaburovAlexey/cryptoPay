@@ -1,0 +1,29 @@
+.instruction__header {
+  font-family: "Inter", sans-serif;
+  /* font-size: 56px; */
+  font-size: calc(32px + 24 * (100vw / 1600));
+  font-style: normal;
+  font-weight: 629;
+  line-height: 110%;
+  /* 61.6px */
+  letter-spacing: -1.68px;
+  color: #252525;
+  margin: 0;
+  grid-column: 1/13;
+  grid-row: 1/1;
+  justify-self: center;
+}
+
+.instruction__header a {
+  text-decoration: none;
+  color: #41A4DF;
+}
+
+
+@media screen and (max-width: 768px) {
+  .instruction__header {
+    grid-column: 1/7;
+    font-size: calc(32px + (24 + 24 * 0.7) * ((100vw - 375px) / 1600));
+    text-align: center;
+  }
+}

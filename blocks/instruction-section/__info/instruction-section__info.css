@@ -1,0 +1,14 @@
+.instruction-section__info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-self: center;
+}
+
+@media screen and (max-width: 767px){
+  .instruction-section__info{
+    display: grid;
+    grid-template-columns: 36px 1fr;
+    gap: 16px;
+  }
+}

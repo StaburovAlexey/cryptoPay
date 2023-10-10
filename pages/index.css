@@ -80,3 +80,27 @@
 @import url(../blocks/animate/additional-btn-active.css);
 @import url(../blocks/animate/varification-slide.css);
 @import url(../blocks/animate/anonymous-slide.css);
+@import url(../blocks/instruction/instruction.css);
+@import url(../blocks/instruction/__header/instruction__header.css);
+@import url(../blocks/instruction-section/instruction-section.css);
+@import url(../blocks/instruction-section/__header/instruction-section__header.css);
+@import url(../blocks/instruction-section/__icon/instruction-section__icon.css);
+@import url(../blocks/instruction-section/__info/instruction-section__info.css);
+@import url(../blocks/instruction-section/__list/instruction-section__list.css);
+@import url(../blocks/instruction-section/__list/_blue/instruction-section__list_blue.css);
+@import url(../blocks/instruction-section/__text/instruction-section__text.css);
+@import url(../blocks/instruction-section/__img/instruction-section__img.css);
+@import url(../blocks/step/__1/step__1.css);
+@import url(../blocks/step/__2/step__2.css);
+@import url(../blocks/step/__3/step__3.css);
+@import url(../blocks/api/api.css);
+@import url(../blocks/api/__background/api__background.css);
+@import url(../blocks/api/__btn/api__btn.css);
+@import url(../blocks/api/__header/api__header.css);
+@import url(../blocks/api/__text/api__text.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__btn/footer__btn.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__nav-link/footer__nav-link.css);
+@import url(../blocks/footer/__nav/footer__nav.css);
+

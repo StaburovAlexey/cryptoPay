@@ -1,0 +1,15 @@
+.footer__logo {
+  display: block;
+  width: 64px;
+  height: 64px;
+  padding: 0 99px 0 0;
+  grid-row: 1/1;
+}
+
+@media screen and (max-width: 800px){
+  .footer__logo {
+    width: 46px;
+    height: 46px;
+    padding: 0;
+  }
+}

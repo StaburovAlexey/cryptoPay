@@ -1,0 +1,9 @@
+.step__2{
+  grid-row: 3/3;
+}
+
+@media screen and (max-width: 767px){
+  .step__2{
+    flex-direction: column;
+  }
+}

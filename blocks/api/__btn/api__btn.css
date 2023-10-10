@@ -1,0 +1,33 @@
+.api__btn {
+  display: inline-flex;
+  padding: 18px 42px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 900px;
+  border: 1px solid rgba(255, 255, 255, 0.60);
+  background-color: transparent;
+  color: #FFF;
+  text-align: center;
+  /* mobile/Button */
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  /* 21.6px */
+}
+
+.api__btn:hover {
+  border: 1px solid #FFF;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 425px) {
+  .api__btn {
+    padding: 12px 32px;
+    width: 100%;
+    margin-bottom: 28px;
+  }
+}

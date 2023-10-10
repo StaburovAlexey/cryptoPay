@@ -1,0 +1,15 @@
+.footer__nav {
+  /* width: 844px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  flex: 1 0 0;
+  grid-row: 1/1;
+}
+
+@media screen and (max-width: 800px) {
+  .footer__nav {
+    display: none;
+  }
+}
