@@ -16,3 +16,12 @@
     padding: 24px 20px;
   }
 }
+
+@media screen and (max-width: 767px){
+  .additional__bg{
+    /* height: 281px; */
+    justify-content: center;
+    align-items: center;
+    gap: 2.5px;
+  }
+}

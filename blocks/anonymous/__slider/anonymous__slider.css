@@ -2,3 +2,10 @@
   width: 88%;
   overflow: hidden;
 }
+
+@media screen and (max-width: 767px){
+  .anonymous__slider {
+    width: 356px;
+    height: auto;
+  }
+}

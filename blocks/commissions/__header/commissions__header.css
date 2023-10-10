@@ -15,5 +15,6 @@
 @media screen and (max-width: 768px) {
   .commissions__header {
     font-size: calc(28px + (14 + 14 * 0.7) * ((100vw - 375px) / 1600));
+    margin: 24px 0 16px 0;
   }
 }

@@ -14,3 +14,9 @@
   padding: 25px 0 25px 0;
   }
 }
+
+@media screen and (max-width: 767px){
+  .varification__slider{
+    width: 212px;
+  }
+}

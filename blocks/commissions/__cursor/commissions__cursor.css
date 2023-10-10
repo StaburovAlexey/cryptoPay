@@ -8,6 +8,18 @@
   position: absolute;
   top: 55%;
   left: 80%;
+}
 
+@media screen and (max-width: 767px) {
+  .commissions__cursor {
+    top: 60%;
+    left: 65%;
+  }
+}
 
+@media screen and (max-width: 425px) {
+  .commissions__cursor {
+    top: 60%;
+    left: 75%;
+  }
 }

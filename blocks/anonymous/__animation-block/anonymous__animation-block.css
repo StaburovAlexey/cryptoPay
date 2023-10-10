@@ -9,3 +9,12 @@
   justify-content: center;
   align-self: center;
 }
+
+@media screen and (max-width: 767px) {
+  .anonymous__animation-block{
+    border-radius: 16px;
+    padding: 0 23px;
+    box-sizing: border-box;
+
+  }
+}

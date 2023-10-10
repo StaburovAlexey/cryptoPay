@@ -5,3 +5,12 @@
   grid-template-rows: repeat(4, minmax(26.1px, 48.05px));
   gap: 4.47px 4.7px;
 }
+
+@media screen and (max-width: 767px){
+  .additional__btns{
+    grid-template-rows: repeat(4, 26px);
+    width: 231px;
+    justify-content: center;
+    gap: 2.5px;
+  }
+}

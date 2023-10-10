@@ -7,3 +7,12 @@
   justify-content: space-between;
   align-items: flex-start;
 }
+
+@media screen and (max-width: 767px){
+  .features__curencies-icons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 56px);
+    gap: 10px 0;
+  }
+}

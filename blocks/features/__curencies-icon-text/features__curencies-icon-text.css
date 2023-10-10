@@ -9,3 +9,9 @@
   color: rgba(17, 17, 17, 0.4);
   margin: 0;
 }
+
+@media screen and (max-width: 767px){
+  .features__curencies-icon-text{
+    display: none;
+  }
+}

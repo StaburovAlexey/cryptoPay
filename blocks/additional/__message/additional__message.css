@@ -25,3 +25,13 @@
   position: relative;
   overflow: hidden;
 }
+
+@media screen and (max-width: 767px){
+  .additional__message{
+    min-height: 0;
+    width: 231px;
+    height: 100%;
+    background-position: center;
+    border-radius: 8.992px 8.992px 4.196px 4.196px;
+  }
+}

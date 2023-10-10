@@ -10,6 +10,14 @@
 
 @media screen and (max-width: 1024px){
   .commissions__animations {
-    height: auto;
+    height: 100%;
+    align-items: start;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .commissions__animations{
+    height: 100%;
+    align-items: center;
   }
 }
