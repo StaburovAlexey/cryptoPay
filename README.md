@@ -1,5 +1,5 @@
 # Конкурсный проект статичного сайта для Сrypto Pay
-https://staburovalexey.github.io/cryptoPay/
+https://staburovalexey.github.io/cryptoPay/ <br>
 ##Что реализовано:
 1. Адаптивная-респонсив верстка от 375 до 1600(можно растянуть и больше)
 2. Использованы Flex и Grid
