@@ -1,5 +1,6 @@
 .hero-info__text_under-icons {
   margin-top: calc(16px + 96px);
+  color:  color: rgba(13, 13, 18, 1);
 }
 
 @media screen and (max-width: 768px) {

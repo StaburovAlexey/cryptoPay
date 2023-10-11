@@ -109,3 +109,6 @@
 @import url(../blocks/footer/__nav-link/footer__nav-link.css);
 @import url(../blocks/footer/__nav/footer__nav.css);
 @import url(../blocks/footer/copy/footer__copy.css);
+@import url(../blocks/theme-btn/theme-btn.css);
+@import url(../blocks/theme-btn/_active/theme-btn_active.css);
+@import url(../blocks/dark-theme/dark-theme.css);

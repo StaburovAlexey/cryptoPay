@@ -7,21 +7,15 @@
   background-size: contain;
   display: flex;
   justify-content: center;
-
+  justify-items:flex-start;
 }
+
+
 
 
 @media screen and (max-width: 1344px) {
   .varification__animation {
     background-position: top;
-    justify-items:flex-start;
+    justify-items: flex-start;
   }
 }
-
-@media screen and (max-width: 900px) {
-  .varification__animation {
-   
-  }
-}
-
-

@@ -1,0 +1,173 @@
+.dark-theme {
+  background-color: #0D0D12;
+  color: #FFF;
+  transition: background 0.5s ease;
+  transition: color 0.5s ease;
+}
+
+.dark-theme .header__nav-link {
+  color: #FFF;
+}
+
+.dark-theme .header__btn {
+  border: 1px solid rgba(255, 255, 255, 0.60);
+  background-color: transparent;
+  color: #fff;
+
+}
+
+.dark-theme .hero-info__header {
+  color: #fff;
+}
+
+.dark-theme .hero-info__text {
+  color: #fff;
+}
+
+.dark-theme .hero-info__icon {
+  border: 4px solid #0D0D12;
+  background-color: #0D0D12;
+}
+
+.dark-theme .hero__phone {
+  background-image: url(../../image/img_phone_dark.svg);
+}
+
+.dark-theme .features__curencies,
+.dark-theme .commissions,
+.dark-theme .additional,
+.dark-theme .exchange,
+.dark-theme .varification,
+.dark-theme .anonymous {
+  background-color: #18181D;
+}
+
+.dark-theme .features__curencies-icon-text {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.dark-theme .commissions__header,
+.dark-theme .commissions__text,
+.dark-theme .additional__header,
+.dark-theme .additional__text,
+.dark-theme .exchange__header,
+.dark-theme .exchange__text,
+.dark-theme .varification__header,
+.dark-theme .varification__text,
+.dark-theme .anonymous__header,
+.dark-theme .anonymous__text {
+  color: #fff;
+}
+
+.dark-theme .commissions__btn {
+  background: linear-gradient(233deg, #9FCCFA -20.48%, #0974F1 97.38%);
+}
+
+.dark-theme .commissions:hover .commissions__btn {
+  animation-name: btnScaleDark;
+  animation-duration: 1.2s;
+  animation-delay: .8s;
+}
+
+.dark-theme .exchange__icon {
+  border: 4px solid rgba(26, 26, 26, 1);
+}
+
+.dark-theme .exchange__icon-dollar {
+  background: linear-gradient(78deg, #181818 -16.92%, #2F2F2F 84.29%), linear-gradient(220deg, #010417 10.26%, #2B333F 84.25%), linear-gradient(46deg, #000 15.89%, #434343 171.16%);
+}
+
+.dark-theme .varification__animation {
+  background-image: url(../../image/varification/varification__phone_dark.svg);
+}
+
+.dark-theme .varification__slider-slide:nth-of-type(1) {
+  background-image: url(../../image/varification/1_dark.svg);
+}
+
+.dark-theme .varification__slider-slide:nth-of-type(2) {
+  background-image: url(../../image/varification/2_dark.svg);
+}
+
+.dark-theme .varification__slider-slide:nth-of-type(3) {
+  background-image: url(../../image/varification/3_dark.svg);
+}
+
+.dark-theme .varification__slider-slide:nth-of-type(4) {
+  background-image: url(../../image/varification/4_dark.svg);
+}
+
+.dark-theme .instruction {
+  background-color: #18181D;
+}
+
+.dark-theme .instruction__header,
+.dark-theme .instruction-section__header,
+.dark-theme .instruction-section__list,
+.dark-theme .instruction-section__list span,
+.dark-theme .instruction-section__text,
+.dark-theme .instruction-section p {
+  color: #fff;
+}
+
+.dark-theme .instruction-section__icon {
+  background: #FFF;
+  color: #0D0D12;
+}
+
+.dark-theme .community {
+  background-color: #0D0D12;
+}
+
+.dark-theme .community__header,
+.dark-theme .community__text,
+.dark-theme .community__libraries p {
+  color: #fff;
+}
+
+.dark-theme .features__curencies:hover .text1 {
+  animation-name: smallBigTextDark;
+  animation-duration: .5s;
+}
+
+.dark-theme .features__curencies:hover .text2 {
+  animation-name: smallBigTextDark;
+  animation-duration: .5s;
+  animation-delay: .5s;
+}
+
+.dark-theme .features__curencies:hover .text3 {
+  animation-name: smallBigTextDark;
+  animation-duration: .5s;
+  animation-delay: calc(2 * .5s);
+}
+
+.dark-theme .features__curencies:hover .text4 {
+  animation-name: smallBigTextDark;
+  animation-duration: .5s;
+  animation-delay: calc(3 * .5s);
+}
+
+.dark-theme .features__curencies:hover .text5 {
+  animation-name: smallBigTextDark;
+  animation-duration: .5s;
+  animation-delay: calc(4 * .5s);
+}
+
+.dark-theme .features__curencies:hover .text6 {
+  animation-name: smallBigTextDark;
+  animation-duration: .5s;
+  animation-delay: calc(5 * .5s);
+}
+
+.dark-theme .features__curencies:hover .text7 {
+  animation-name: smallBigTextDark;
+  animation-duration: .5s;
+  animation-delay: calc(6 * .5s);
+}
+
+.dark-theme .features__curencies:hover .text8 {
+  animation-name: smallBigTextDark;
+  animation-duration: .5s;
+  animation-delay: calc(7 * .5s);
+}

@@ -12,4 +12,20 @@
   }
 }
 
+@keyframes btnScaleDark {
+
+  30% {
+    transform: scale(1.08);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(233deg, #9FCCFA -20.48%, #0974F1 97.38%);
+
+
+  }
+
+  70% {
+    transform: scale(1);
+    background: linear-gradient(233deg, #9FCCFA -20.48%, #0974F1 97.38%), linear-gradient(240deg, rgba(41, 126, 226, 0.12) 3.57%, rgba(24, 97, 182, 0.12) 86.24%);
+
+  }
+}
+
 

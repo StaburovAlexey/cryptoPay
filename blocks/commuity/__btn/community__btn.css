@@ -18,3 +18,8 @@
   line-height: 120%;
   /* 24px */
 }
+
+.community__btn:hover {
+  background: #297EE2;
+  cursor: pointer;
+}
