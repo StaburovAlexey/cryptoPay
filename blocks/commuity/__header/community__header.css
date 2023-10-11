@@ -1,0 +1,21 @@
+.community__header {
+  color: #0D0D12;
+  text-align: center;
+  /* desktop/H2 header */
+  font-family: "Inter", sans-serif;
+  /* font-size: 56px; */
+  font-size: calc(32px + 24 * (100vw / 1600));
+  font-style: normal;
+  font-weight: 629;
+  line-height: 110%;
+  /* 61.6px */
+  letter-spacing: -1.68px;
+  margin: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+  .community__header {
+    font-size: calc(32px + (24 + 24 * 0.7) * ((100vw - 375px) / 1600));
+  }
+}

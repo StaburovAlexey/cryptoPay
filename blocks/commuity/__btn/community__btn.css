@@ -1,0 +1,20 @@
+.community__btn {
+  display: flex;
+  padding: 18px 42px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 900px;
+  background: #41A4DF;
+  border: none;
+  color: #FFF;
+  text-align: center;
+  /* desktop/Button */
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  /* 24px */
+}

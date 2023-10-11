@@ -1,0 +1,16 @@
+.footer__copy {
+  color: rgba(255, 255, 255, 1);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  /* 24px */
+  margin: 0;
+}
+
+@media screen and (max-width: 800px){
+  .footer__copy{
+    font-size: 18px;
+  }
+}

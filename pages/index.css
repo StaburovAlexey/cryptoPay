@@ -98,9 +98,14 @@
 @import url(../blocks/api/__btn/api__btn.css);
 @import url(../blocks/api/__header/api__header.css);
 @import url(../blocks/api/__text/api__text.css);
+@import url(../blocks/commuity/community.css);
+@import url(../blocks/commuity/__btn/community__btn.css);
+@import url(../blocks/commuity/__header/community__header.css);
+@import url(../blocks/commuity/__libraries/community__libraries.css);
+@import url(../blocks/commuity/__text/community__text.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__btn/footer__btn.css);
 @import url(../blocks/footer/__logo/footer__logo.css);
 @import url(../blocks/footer/__nav-link/footer__nav-link.css);
 @import url(../blocks/footer/__nav/footer__nav.css);
-
+@import url(../blocks/footer/copy/footer__copy.css);

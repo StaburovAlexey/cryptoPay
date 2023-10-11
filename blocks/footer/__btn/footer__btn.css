@@ -1,34 +1,36 @@
 .footer__btn {
   display: flex;
-  padding: 18px 42px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 10px;
-  border: none;
   border-radius: 900px;
-  background-color: rgba(41, 126, 226, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.60);
+  background-color: transparent;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: 120%;
-  color: rgba(41, 126, 226, 1);
+  color: #FFF;
   text-align: center;
   grid-row: 1/1;
+  width: 193px;
+  justify-self: end;
 }
 
 .footer__btn:hover {
   color: white;
-  background-color: rgba(41, 126, 226, 1);
   cursor: pointer;
+  border: 1px solid #FFF;
 }
 
 @media screen and (max-width: 800px) {
   .footer__btn {
     display: flex;
-    padding: 12px 32px;
+    width: 163px;
+    height: 46px;
     gap: 10px;
     font-family: Inter;
     font-size: 18px;

@@ -1,15 +1,17 @@
 .footer {
+  position: relative;
+  z-index: 0;
   width: 100%;
-  height: 272px;
-  margin: 40px auto;
+  /* height: 272px; */
+  margin: 0 auto 0;
   display: grid;
   grid-template-rows: 64px 24px;
-  justify-content: space-between;
+  /* justify-content: space-between;
   align-items: center;
-  align-content: center;
+  align-content: center; */
   box-sizing: border-box;
   background-color: rgba(35, 35, 40, 1);
-  padding: 0 12.5%;
+  padding: 120px 12.5% 40px;
   row-gap: 24px;
 }
 
@@ -18,6 +20,9 @@
   .footer {
     /* margin: 44px 20px 40px; */
     justify-content: space-between;
-    padding: 9px 20px;
+    padding: 56px 20px 32px 20px;
+    row-gap: 33px;
+    margin: 0 auto;
+    height: 198px;
   }
 }
